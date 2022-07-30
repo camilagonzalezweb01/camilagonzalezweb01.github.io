@@ -10,7 +10,7 @@
     <!--<link rel="icon" href="./favicon.ico" type="image/x-icon">-->
   </head>
   <body>
-      <div id="root">
+
  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
       <a class="navbar-brand" href="#">Types of life forms</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,19 +20,19 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/insects/insects.html">Insects</a>
+            <a class="nav-link" href="./insects/insects.html">Insects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/fish/fish.html">Fish</a>
+            <a class="nav-link" href="./fish/fish.html">Fish</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/carnivores/carnivores.html">Carnivores</a>
+            <a class="nav-link" href="./carnivores/carnivores.html">Carnivores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="/birds/birds.html">Birds</a>
+            <a class="nav-link" href="./birds/birds.html">Birds</a>
           </li>
         </ul>
       </div>
@@ -41,23 +41,12 @@
     <main role="main" class="container">
 
       <div class="starter-template">
-        <div class="page-container">
-              <h1>About</h1>
-            <div>Birds</div>
-            <hr />
-
-                <a href="./birds/images/Andean-Condor.html">
-                    <img src="/birds/images/Andean-Condor.jpg" width="400" higth="400" />
-                </a>
-                <br />
-                <br />
-        </div>
+        <h1>Aca mostraremos algo relacionado al tema</h1>
+	<p class="lead">descripcion breve. nooo</p>
       </div>
 
     </main><!-- /.container -->
-      </div>
 
-        <script src="js/router.js"></script>
     <!--
 	<script src="index.js"></script>
 	-->
